@@ -12,7 +12,7 @@ if(metasUpd.length>0)
             for(i=0; i<metasUpd.length; i++)
             {
                 url = metasUpd[i].getAttribute("data-autoupdate")  !== null ? metasUpd[i].getAttribute("data-autoupdate")  : url; 
-                url = metasUpd[i].getAttribute("data-autorefresh")  !== null ? metasUpd[i].getAttribute("data-autorefresh")  : url; 
+                url = metasUpd[i].getAttribute("data-autorefresh") !== null ? metasUpd[i].getAttribute("data-autorefresh") : url; 
             }
             
             url += url.match(/\?/) ? "&" : "?";
