@@ -1,4 +1,4 @@
-# auto-refresh
+# Auto-Refresh - Chrome extension
 Detect page modification and refresh in the browser
 
 This is a Chrome extension to detect some page modifications during developpement and reload it in this case.
