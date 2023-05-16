@@ -1,0 +1,17 @@
+{
+  "name": "Auto-refresh",
+  "version": "1.0",
+  "description": "Detect page modification and refresh in the browser",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "js": [ "background.js"],
+    "matches": ["<all_urls>"], 
+    "all_frames": true
+  }],
+  "background": {
+  },
+  "web_accessible_resources": [], 
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
